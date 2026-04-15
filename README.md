@@ -67,6 +67,14 @@ python src/generate_data.py
 ```
 Creates `data/sensor_data.csv` with 5,000 samples and ~10% failure rate.
 
+### Step 3 — Run EDA & Preprocessing
+
+```bash
+python src/eda.py
+```
+Cleans data, plots distributions, correlation matrix, boxplots, and pairplot.  
+Saves cleaned data to `data/sensor_data_cleaned.csv`.
+
 ### Step 4 — Train Models
 
 ```bash
